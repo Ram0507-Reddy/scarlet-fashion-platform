@@ -1,0 +1,9 @@
+{
+    "projects": [
+        {
+            "name": "scarlet-fashion-frontend",
+            "rootDirectory": "frontend",
+            "framework": "nextjs"
+        }
+    ]
+}

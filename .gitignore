@@ -1,34 +1,8 @@
-# Node
-node_modules/
-npm-debug.log
-yarn.lock
-pnpm-lock.yaml
-
-# Env files
-.env
-.env.local
-.env.production
-
-# Build outputs
-.next/
-dist/
-build/
-
-# Logs
-logs/
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# SQLite
+node_modules
+.env*
+dist
+.next
+logs
 *.sqlite
-*.db
-
-# PM2
-.pm2/
-
-# IDE
-.vscode/
-.idea/
+coverage
+.DS_Store

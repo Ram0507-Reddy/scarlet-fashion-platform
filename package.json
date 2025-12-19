@@ -1,19 +1,4 @@
 {
-    "name": "scarlet-fashion-platform",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": [
-        "frontend",
-        "backend",
-        "sync-agent"
-    ],
-    "scripts": {
-        "start:all": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-        "start:frontend": "cd frontend && npm run dev",
-        "start:backend": "cd backend && npm run dev",
-        "start:agent": "cd sync-agent && npx ts-node src/agent.ts"
-    },
-    "devDependencies": {
-        "concurrently": "^8.2.0"
-    }
+    "name": "scarlet-fashion-root",
+    "private": true
 }
